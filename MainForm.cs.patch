@@ -1,0 +1,13 @@
+Index: EasyArchive/MainForm.cs
+===================================================================
+--- EasyArchive/MainForm.cs	(revision 17)
++++ EasyArchive/MainForm.cs	(working copy)
+@@ -19,7 +19,7 @@
+         {
+             InitializeComponent();
+ 
+-
++            MessageBox.Show("Welcome");
+             _activityLogger = new ActivityLogger(new LabelDisplay(lblStatus));
+         }
+ 
